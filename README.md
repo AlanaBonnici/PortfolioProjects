@@ -84,3 +84,32 @@ SQL queries filename: SQLQueryPortfolioProjects2.sql
 
 
 - Query 19. Goal: Display the view created in #18.
+
+
+### Project 2: Covid Data SQL Queries for Insertion in Tableau
+
+Technologies Used: (MS)SQL, Azure Data Studio, Tableau Public
+Skills: sql queries, exporting data to .xls
+Data Source: https://ourworldindata.org/covid-deaths
+DATA: date range = 2020-02-24 to 2021-04-30. temporal resolution = daily
+
+Database Name: PortfolioProject2
+2 Tables called: CovidDeaths and CovidVaccinations
+SQL queries filename: 2SQLQueryForTableau.sql
+
+- Query 1. Display worldwide total cases, total deaths, percentage of deaths
+<img width="466" alt="image" src="https://github.com/AlanaBonnici/PortfolioProjects/assets/76119171/a69738b3-6af3-4d78-bc64-9114483c94c4">
+
+
+- Query 2. Display location and total death count. Ordered by death count.
+<img width="305" alt="image" src="https://github.com/AlanaBonnici/PortfolioProjects/assets/76119171/fba01960-6f02-4bc2-95f0-78447268bedc">
+
+
+- Query 3. Display location, population, highest infection count, percent population infected. Ordered by percentage of population infected.
+<img width="690" alt="image" src="https://github.com/AlanaBonnici/PortfolioProjects/assets/76119171/748cdfda-b317-459b-822b-260ee587b1f5">
+
+
+- Query 4. Display location, population, date, highest infection count, percent of population infected. Ordered by date.
+<img width="769" alt="image" src="https://github.com/AlanaBonnici/PortfolioProjects/assets/76119171/f847e4f0-969e-4f22-bfb5-6c0a856a837d">
+
+
