@@ -3,7 +3,7 @@
 This repository details a few projects I've built recently, including a summary of the goals and screenshots of the results.
 
 * Exploring the Covid pandemic data death and vaccination rates using (MS)SQL.
-* Assembling data for use in Tableau Public: https://public.tableau.com/app/profile/alana.bonnici/viz/CovidDataPortfolioProject_17164338355220/Dashboard1?publish=yes
+* Assembling data for use in [Tableau Public](https://public.tableau.com/app/profile/alana.bonnici/viz/CovidDataPortfolioProject_17164338355220/Dashboard1?publish=yes)
 
 ## Project 1: Covid Data Exploration using SQL
 
@@ -79,7 +79,7 @@ For this project the database name is 'PorfolioProject2'. There are two tables: 
 See [2SQLQueryForTableau.sql](2SQLQueryForTableau.sql) for all queries.
 
 ### Tableau Dashboard
-See    https://public.tableau.com/app/profile/alana.bonnici/viz/CovidDataPortfolioProject_17164338355220/Dashboard1?publish=yes
+See [Tableau Public](https://public.tableau.com/app/profile/alana.bonnici/viz/CovidDataPortfolioProject_17164338355220/Dashboard1?publish=yes)
 
 
 #### Query 1. Display worldwide total cases, total deaths, percentage of deaths
@@ -97,7 +97,7 @@ See    https://public.tableau.com/app/profile/alana.bonnici/viz/CovidDataPortfol
 #### Query 4. Display location, population, date, highest infection count, percent of population infected. Ordered by date.
 <img width="769" alt="image" src="https://github.com/AlanaBonnici/PortfolioProjects/assets/76119171/f847e4f0-969e-4f22-bfb5-6c0a856a837d">
 
-** Results: 
+** Results in [Tableau Public](https://public.tableau.com/app/profile/alana.bonnici/viz/CovidDataPortfolioProject_17164338355220/Dashboard1?publish=yes)
 ![image](https://github.com/AlanaBonnici/PortfolioProjects/assets/76119171/7cfe8a35-c56e-4047-9a2a-a9ed9cd92565)
 
 
