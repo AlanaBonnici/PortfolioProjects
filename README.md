@@ -3,7 +3,7 @@
 This repository details a few projects I've built recently, including a summary of the goals and screenshots of the results.
 
 * Exploring the Covid pandemic data death and vaccination rates using (MS)SQL.
-* Assembling data for use in Tableau Public (https://public.tableau.com/app/discover)
+* Assembling data for use in Tableau Public: https://public.tableau.com/app/profile/alana.bonnici/viz/CovidDataPortfolioProject_17164338355220/Dashboard1?publish=yes
 
 ## Project 1: Covid Data Exploration using SQL
 
@@ -35,7 +35,8 @@ See [SQLQueryPortfolioProjects2.sql](SQLQueryPortfolioProjects2.sql) for all que
 
 
 #### Query 7. Display countries with highest death count
-I realized there are aggregate locations such as World, Europe, Asia etc which is skewing data. Goal: Similar to #5 BUT removing aggregate locations
+I realized there are aggregate locations such as World, Europe, Asia etc which is skewing data. Goal: Similar to #5 BUT removing aggregate locations.
+
 <img width="319" alt="image" src="https://github.com/AlanaBonnici/PortfolioProjects/assets/76119171/aee50eb8-66a7-41df-a451-0d5e6181c6a5">
 
 
@@ -61,30 +62,41 @@ Insights gained: Small countries like Gibraltar have cross-border workers which 
 
 ** Interesting Insights: Global death rates for COVID-19 was about 2.1% of people infected. Smaller countries vaccination rates were higher, some like Gibraltar were over 100%. The country with a population overe 10 million that had the highest vaccination rate (77%) was Chile. The continent with the highest death count per population was North America. The countries with the highest death count per population were United States, followed by Brazil, then Mexico.
 
-### Project 2: Covid Data SQL Queries for Insertion in Tableau
+## Project 2: Covid Data SQL Queries for Insertion in Tableau
 
-Technologies Used: (MS)SQL, Azure Data Studio, Tableau Public
-Skills: sql queries, exporting data to .xls
-Data Source: https://ourworldindata.org/covid-deaths
-DATA: date range = 2020-02-24 to 2021-04-30. temporal resolution = daily
+* **Technologies used:** (MS)SQL, Azure Data Studio, Tableau Public
+* **Skills:** sql queries, exporting data to .xls, Tableau Public
+* **Data Source:** https://ourworldindata.org/covid-deaths
+* **Data:** date range: 2020-02-24 to 2021-04-30, temporal resolution: daily
+  
+### Summary
 
-Database Name: PortfolioProject2
-2 Tables called: CovidDeaths and CovidVaccinations
-SQL queries filename: 2SQLQueryForTableau.sql
+The goal of this project was to write a few queries, export the output to .xls, import that data into Tableau Public, and visualize the Covid pandemic data in Tableau Public.
 
-- Query 1. Display worldwide total cases, total deaths, percentage of deaths
+For this project the database name is 'PorfolioProject2'. There are two tables: 'CovidDeaths' and 'CovidVaccinations'.
+
+### Queries
+See [2SQLQueryForTableau.sql](2SQLQueryForTableau.sql) for all queries.
+
+### Tableau Dashboard
+See    https://public.tableau.com/app/profile/alana.bonnici/viz/CovidDataPortfolioProject_17164338355220/Dashboard1?publish=yes
+
+
+#### Query 1. Display worldwide total cases, total deaths, percentage of deaths
 <img width="466" alt="image" src="https://github.com/AlanaBonnici/PortfolioProjects/assets/76119171/a69738b3-6af3-4d78-bc64-9114483c94c4">
 
 
-- Query 2. Display location and total death count. Ordered by death count.
+#### Query 2. Display location and total death count. Ordered by death count.
 <img width="305" alt="image" src="https://github.com/AlanaBonnici/PortfolioProjects/assets/76119171/fba01960-6f02-4bc2-95f0-78447268bedc">
 
 
-- Query 3. Display location, population, highest infection count, percent population infected. Ordered by percentage of population infected.
+#### Query 3. Display location, population, highest infection count, percent population infected. Ordered by percentage of population infected.
 <img width="690" alt="image" src="https://github.com/AlanaBonnici/PortfolioProjects/assets/76119171/748cdfda-b317-459b-822b-260ee587b1f5">
 
 
-- Query 4. Display location, population, date, highest infection count, percent of population infected. Ordered by date.
+#### Query 4. Display location, population, date, highest infection count, percent of population infected. Ordered by date.
 <img width="769" alt="image" src="https://github.com/AlanaBonnici/PortfolioProjects/assets/76119171/f847e4f0-969e-4f22-bfb5-6c0a856a837d">
 
+** Results: 
+<img width="1397" alt="image" src="https://github.com/AlanaBonnici/PortfolioProjects/assets/76119171/3c47c287-8c7f-4e9a-97f8-bab1e77d517b">
 
