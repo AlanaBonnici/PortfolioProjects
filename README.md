@@ -98,5 +98,6 @@ See    https://public.tableau.com/app/profile/alana.bonnici/viz/CovidDataPortfol
 <img width="769" alt="image" src="https://github.com/AlanaBonnici/PortfolioProjects/assets/76119171/f847e4f0-969e-4f22-bfb5-6c0a856a837d">
 
 ** Results: 
-<img width="1397" alt="image" src="https://github.com/AlanaBonnici/PortfolioProjects/assets/76119171/3c47c287-8c7f-4e9a-97f8-bab1e77d517b">
+![image](https://github.com/AlanaBonnici/PortfolioProjects/assets/76119171/7cfe8a35-c56e-4047-9a2a-a9ed9cd92565)
+
 
